@@ -12,8 +12,6 @@ const refs = {
 
 refs.form.addEventListener('submit', onFormSubmit);
 
-refs.textarea.addEventListener('input', onTextAreaInput);
-
 refs.form.addEventListener('input', throttle(onFormInput, 500));
 
 checkTheStorage();

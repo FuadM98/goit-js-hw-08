@@ -45,6 +45,6 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
 });
 
-gallery.on('show.simplelightbox', function () {
-  lightbox.open();
-});
+// galleryListRef.on('show.simplelightbox', function () {
+//   lightbox.open();
+// });
