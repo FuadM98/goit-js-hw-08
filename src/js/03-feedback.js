@@ -39,4 +39,6 @@ function checkTheStorage() {
     refs.email.value = parsedInfo.email;
     refs.textarea.value = parsedInfo.message;
   }
+  refs.email.value = '';
+  refs.textarea.value = '';
 }
