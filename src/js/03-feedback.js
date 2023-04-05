@@ -38,7 +38,9 @@ function checkTheStorage() {
   if (parsedInfo) {
     refs.email.value = parsedInfo.email;
     refs.textarea.value = parsedInfo.message;
+  } else if (refs.email.value === 'undefined') {
+    refs.email.value = '';
+  } else if (refs.textarea.value === 'undefined') {
+    refs.textarea.value = '';
   }
-  refs.email.value = '';
-  refs.textarea.value = '';
 }
